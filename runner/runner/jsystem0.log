@@ -1,0 +1,96 @@
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :D:\LEARN\runner\runner\.run.properties
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:52:03 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file runnerState.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file runnerState.properties
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Monitor stopped 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Engine set 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.ConnectionListener$ConnectionMonitor run
+INFO: Connection monitor thread is up... 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.ConnectionListener connect
+INFO: Connected to agent. 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Connected 
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: mystation.xml
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Sep 13, 2018 12:52:03 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading scenario: scenarios/default Took 0.13 seconds.
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:04 PM jsystem.utils.UploadRunner validateUrl
+FINE: Failed validating url http://localhost:8080/report-service/index.html
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at jsystem.utils.UploadRunner.validateUrl(UploadRunner.java:107)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:685)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:692)
+	at jsystem.treeui.TestTreeView.refreshOpenReportsButton(TestTreeView.java:715)
+	at jsystem.treeui.TestTreeView.createToolBar(TestTreeView.java:447)
+	at jsystem.treeui.TestTreeView.<init>(TestTreeView.java:213)
+	at jsystem.treeui.TestRunner.startRunner(TestRunner.java:146)
+	at jsystem.framework.launcher.Launcher2.run(Launcher2.java:78)
+	at jsystem.framework.launcher.Launcher2.main(Launcher2.java:31)
+
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/flowControl.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/nestedScenario.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/simpleScenario.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading all assets tree Took 0.235 seconds.
+Sep 13, 2018 12:52:05 PM jsystem.treeui.TestRunner$1 run
+FINE: Splash Screen Closed
+Sep 13, 2018 12:52:05 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Collecting System objects Took 0.017 seconds.
+Sep 15, 2018 11:18:07 AM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 15, 2018 11:18:07 AM jsystem.treeui.TestRunner exit
+INFO: System exit 0
