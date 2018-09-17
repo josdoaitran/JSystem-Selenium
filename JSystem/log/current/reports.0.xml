@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><reports Setup="mystation.xml" startTime="1537109109991" status="true">
+    <test count="1" documentaion="Logs a welcome message.&lt;br&gt;" endTime="1537109225077" failCause="" name="Welcome.welcome" package="com.aqua.services.welcome" params="" properties="" startTime="1537109224855" status="true" steps="Welcome to JSystem framework.&#10;" testIndex="0"/>
+</reports>

@@ -1,0 +1,292 @@
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :D:\LEARN\runner\runner\.run.properties
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:51:59 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:52:03 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file runnerState.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file runnerState.properties
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Monitor stopped 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Engine set 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.ConnectionListener$ConnectionMonitor run
+INFO: Connection monitor thread is up... 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.ConnectionListener connect
+INFO: Connected to agent. 
+Sep 13, 2018 12:52:03 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Connected 
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\runner\runner\jsystem.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: mystation.xml
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:03 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Sep 13, 2018 12:52:03 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading scenario: scenarios/default Took 0.13 seconds.
+Sep 13, 2018 12:52:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 13, 2018 12:52:04 PM jsystem.utils.UploadRunner validateUrl
+FINE: Failed validating url http://localhost:8080/report-service/index.html
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at jsystem.utils.UploadRunner.validateUrl(UploadRunner.java:107)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:685)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:692)
+	at jsystem.treeui.TestTreeView.refreshOpenReportsButton(TestTreeView.java:715)
+	at jsystem.treeui.TestTreeView.createToolBar(TestTreeView.java:447)
+	at jsystem.treeui.TestTreeView.<init>(TestTreeView.java:213)
+	at jsystem.treeui.TestRunner.startRunner(TestRunner.java:146)
+	at jsystem.framework.launcher.Launcher2.run(Launcher2.java:78)
+	at jsystem.framework.launcher.Launcher2.main(Launcher2.java:31)
+
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/flowControl.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/nestedScenario.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/simpleScenario.properties
+Sep 13, 2018 12:52:05 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading all assets tree Took 0.235 seconds.
+Sep 13, 2018 12:52:05 PM jsystem.treeui.TestRunner$1 run
+FINE: Splash Screen Closed
+Sep 13, 2018 12:52:05 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Collecting System objects Took 0.017 seconds.
+Sep 16, 2018 9:45:08 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:45:08 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:45:08 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:45:08 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :D:\LEARN\JSystem-Selenium\runner\.run.properties
+Sep 16, 2018 9:45:08 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:45:09 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:45:09 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file runnerState.properties
+Sep 16, 2018 9:45:10 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Monitor stopped 
+Sep 16, 2018 9:45:10 PM jsystem.treeui.client.ConnectionListener$ConnectionMonitor run
+INFO: Connection monitor thread is up... 
+Sep 16, 2018 9:45:10 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Engine set 
+Sep 16, 2018 9:45:10 PM jsystem.treeui.client.ConnectionListener connect
+INFO: Connected to agent. 
+Sep 16, 2018 9:45:10 PM jsystem.treeui.client.RunnerEngineManager resetConnectionListener
+FINE: Connected 
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:45:10 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:45:10 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: mystation.xml
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 16, 2018 9:45:10 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Sep 16, 2018 9:45:10 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading scenario: scenarios/default Took 0.238 seconds.
+Sep 16, 2018 9:45:10 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes/scenarios/default.properties
+Sep 16, 2018 9:45:11 PM jsystem.utils.UploadRunner validateUrl
+FINE: Failed validating url http://localhost:8080/report-service/index.html
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at jsystem.utils.UploadRunner.validateUrl(UploadRunner.java:107)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:685)
+	at jsystem.treeui.TestTreeView.validateUrl(TestTreeView.java:692)
+	at jsystem.treeui.TestTreeView.refreshOpenReportsButton(TestTreeView.java:715)
+	at jsystem.treeui.TestTreeView.createToolBar(TestTreeView.java:447)
+	at jsystem.treeui.TestTreeView.<init>(TestTreeView.java:213)
+	at jsystem.treeui.TestRunner.startRunner(TestRunner.java:146)
+	at jsystem.framework.launcher.Launcher2.run(Launcher2.java:78)
+	at jsystem.framework.launcher.Launcher2.main(Launcher2.java:31)
+
+Sep 16, 2018 9:45:11 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/flowControl.properties
+Sep 16, 2018 9:45:12 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/nestedScenario.properties
+Sep 16, 2018 9:45:12 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file projects/jsystemServices/target/classes//scenarios/simpleScenario.properties
+Sep 16, 2018 9:45:12 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading all assets tree Took 0.397 seconds.
+Sep 16, 2018 9:45:12 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Collecting System objects Took 0.011 seconds.
+Sep 16, 2018 9:45:12 PM jsystem.treeui.TestRunner$1 run
+FINE: Splash Screen Closed
+Sep 16, 2018 9:47:03 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file D:/LEARN/JSystem-Selenium/runner/jsystem.properties
+Sep 16, 2018 9:47:03 PM jsystem.runner.remote.ScenarioExecutor parseRunMode
+INFO: Execute mode: 
+Sep 16, 2018 9:47:03 PM jsystem.runner.remote.ScenarioExecutor parseRunMode
+INFO: DROP_EVERY_RUN
+Sep 16, 2018 9:47:03 PM jsystem.runner.remote.ScenarioExecutor execute
+INFO: Execute count: 1
+Sep 16, 2018 9:47:03 PM jsystem.runner.remote.RemoteExecutorImpl run
+FINE: C:\Program Files\Java\jdk1.8.0_131\jre\bin\java -Djsystem.current.fixture.base=jsystem.framework.fixture.RootFixture -Djsystem.current.scenario.name=scenarios/default -Djsystem.fixture.disable=false -Djsystem.runner.exist=true -Djsystem.agent=null -classpath D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-launcher.jar -Dant.home=D:\LEARN\JSystem-Selenium\runner\thirdparty\ant org.apache.tools.ant.launch.Launcher -listener jsystem.runner.remote.RemoteTestRunner -cp D:\LEARN\JSystem-Selenium\runner\/lib/jsystem-launcher.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-antlr.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-bcel.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-bsf.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-log4j.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-oro.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-regexp.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-apache-resolver.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-commons-logging.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-commons-net.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-contrib.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-jai.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-javamail.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-jdepend.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-jmf.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-jsch.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-junit.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-launcher.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-netrexx.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-nodeps.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-starteam.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-stylebook.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-swing.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-testutil.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-trax.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant-weblogic.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\ant.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\xercesImpl.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\ant\lib\xml-apis.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\activation.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\ant-launcher.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\ant.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\asm-commons.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\asm-tree.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\asm.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\avalon-framework.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\catalina.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\cli.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\comm.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-codec.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-compress.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-digester.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-httpclient.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-io.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-jxpath.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-logging-api.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-logging.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-modeler.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\commons-net.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\difido-reports-common.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\embeddedCatalina.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\FileTransfer.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\filters.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\ftpserver-core.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\ganymed-ssh2.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\hamcrest-core.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jackson-annotations.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jackson-core.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jackson-databind.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jcommon.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jfreechart.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\junit.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jwizz.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\jython.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\log4j.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\logkit.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\looks.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\mail.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\mx4j-jmx.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\qdox.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\serializer.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\servlet-api.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\spring.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\swing-worker.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\swingx.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\tftp4java-client.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\tftp4java-server.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\xalan.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\xml-apis.jar;D:\LEARN\JSystem-Selenium\runner\thirdparty\commonLib\xz.jar;D:\LEARN\JSystem-Selenium\runner\lib\cli.jar;D:\LEARN\JSystem-Selenium\runner\lib\embeddedCatalina.jar;D:\LEARN\JSystem-Selenium\runner\lib\FileTransfer.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystem-launcher.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystemAgent.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystemAnt.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystemApp.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystemCommon.jar;D:\LEARN\JSystem-Selenium\runner\lib\jsystemCore.jar;D:\LEARN\JSystem-Selenium\runner\projects\jsystemServices\lib\jsystem-services-so-6.1.10.jar;D:\LEARN\JSystem-Selenium\runner\projects\jsystemServices\target\classes -buildfile D:\LEARN\JSystem-Selenium\runner\projects\jsystemServices\target\classes\scenarios\default.xml -Dbasedir=D:\LEARN\JSystem-Selenium\runner -Dscenarios.base=D:\LEARN\JSystem-Selenium\runner\projects\jsystemServices\target\classes
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteExecutorImpl$ReaderThread run
+FINE: got change sut message
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 16, 2018 9:47:04 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: mystation.xml
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter startContainer
+FINE: Recieved start containter event
+Sep 16, 2018 9:47:04 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Recieved start test event
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter startTest
+FINE: Test name is Welcome to JSystem. To run this test, press on the play button.
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file .testdir.tmp
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file .testdir.tmp
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file runnerState.properties
+Sep 16, 2018 9:47:04 PM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file runnerState.properties
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_info_table">'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test: Welcome.welcome'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '(1)Steps in test: Welcome to JSystem. To run this test, press on the play button. :'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="parameters">'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Parameters:'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Parameters end.'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Can't display test code because java2html.jar is missing.'
+Sep 16, 2018 9:47:04 PM jsystem.framework.report.RunnerListenersManager addTestInfo
+WARNING: Fail to load test code because java2html jar is missing. de.java2html.javasource.JavaSourceParser
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_doc">'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test documentation'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Logs a welcome message.<br>'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '<span class="test_breadcrumbs">'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'default-->Welcome to JSystem. To run this test, press on the play button.</span>'
+Sep 16, 2018 9:47:04 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '</span>'
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteExecutorImpl$ReaderThread run
+FINE: Got M_SYNCH message
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteExecutorImpl$ReaderThread run
+FINE: Sent M_SYNCHED id message
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: Welcome to JSystem framework.'
+Sep 16, 2018 9:47:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file .testdir.tmp
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: How to continue from here:'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: You can start by reading JSystem documentation. Start with the <a href="../../doc/Chapter 3 Getting Started.pdf">getting started</a> chapter,'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: continue with the <a href="../../doc/Chapter 2 JSystem Automation Framework General Description.pdf">overview</a> chapter, and then do the <a href="../../doc/Chapter 11 JSystem Quick Start Project.pdf">quick start project</a>'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: For questions go to our site: <a href="http://www.jsystemtest.org">www.jsystemtest.org</a>, post a question to our <a href="http://sourceforge.net/forum/forum.php?forum_id=397999">help forum</a>.'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title '21:47:04: or send us a mail <a rel="nofollow" href="mailto:jsystemtest@gmail.com">jsystemtest@gmail.com</a>'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Start time: Sun Sep 16 21:47:04 ICT 2018'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'End time  : Sun Sep 16 21:47:05 ICT 2018'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter report
+FINE: Recieved report request with title 'Test running time: 0 sec.'
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter endTest
+FINE: Received end test
+Sep 16, 2018 9:47:05 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:05 PM jsystem.utils.FileUtils loadPropertiesFromFile
+FINEST: Loading properties from file .testdir.tmp
+Sep 16, 2018 9:47:05 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteExecutorImpl$ReaderThread run
+FINE: got build finished message
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteExecutorImpl exit
+FINE: sent exit message
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteExecutorImpl$ReaderThread run
+FINE: got exit message
+Sep 16, 2018 9:47:05 PM jsystem.extensions.report.difido.AbstractHtmlReporter endContainer
+FINE: Recieved end container event
+Sep 17, 2018 10:15:01 AM jsystem.utils.FileUtils savePropertiesToFile
+FINEST: Saving properties to file D:\LEARN\JSystem-Selenium\runner\jsystem.properties
+Sep 17, 2018 10:15:01 AM jsystem.treeui.TestRunner exit
+INFO: System exit 0

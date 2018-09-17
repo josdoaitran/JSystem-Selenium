@@ -1,0 +1,40 @@
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteTestRunner buildStarted
+INFO: Current fixture: jsystem.framework.fixture.RootFixture
+Sep 16, 2018 9:47:04 PM jsystem.framework.sut.SutFactory init
+FINE: Use sut file: mystation.xml
+Sep 16, 2018 9:47:04 PM jsystem.framework.RunProperties <init>
+INFO: create run properties at :D:\LEARN\JSystem-Selenium\runner\.run.properties
+Sep 16, 2018 9:47:04 PM jsystem.framework.scenario.JTestContainer <init>
+FINE: JTest container : scenarios\default
+Sep 16, 2018 9:47:04 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Sep 16, 2018 9:47:04 PM jsystem.utils.PerformanceUtil endMeasure
+INFO: Loading scenario: scenarios/default Took 0.131 seconds.
+Sep 16, 2018 9:47:04 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:04 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteTestRunner synchronize
+FINE: Sent M_SYNCH message
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteTestRunner$ReaderThread run
+FINE: Got M_SYNCHED message
+Sep 16, 2018 9:47:04 PM jsystem.runner.remote.RemoteTestRunner$ReaderThread run
+FINE: M_SYNCHED message after notify all
+Sep 16, 2018 9:47:04 PM jsystem.framework.scenario.RunnerTest loadParameters
+FINE: Unknown parameter type: junit.framework.TestResult for: TestResult
+Sep 16, 2018 9:47:04 PM junit.framework.SystemTestCaseImpl jsystemTestPreExecution
+INFO: Running test: welcome
+Sep 16, 2018 9:47:05 PM jsystem.framework.RunProperties loadProperties
+CONFIG: the run properties doesn't exist,return new Properties object
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteTestRunner buildFinished
+FINE: sent buildFinished message.
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteTestRunner buildFinished
+FINE: started wait for exit.
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.ExitWatcher run
+FINE: Exit watcher started
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteTestRunner$ReaderThread run
+FINE: got exit message.
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteTestRunner$ReaderThread run
+FINE: exit process ended.
+Sep 16, 2018 9:47:05 PM jsystem.runner.remote.RemoteTestRunner buildFinished
+FINE: ended wait for exit.
